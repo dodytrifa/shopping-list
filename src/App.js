@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import List from './List'
 import Alert from './Alert'
 
-//buat funct baru terkait LS
+//buat funct baru terkait LS untuk useState awal
 const getLocalStorage = () => {
   let list = localStorage.getItem("list")
   if(list) {
