@@ -72,7 +72,7 @@ function App() {
     setName(specificItem.title)
   }
 
-  //agar list tidak hilang saat refresh, maka set ke LS
+  //agar list tidak hilang saat refresh, maka set ke Localstorage
   useEffect(()=> {
     localStorage.setItem("list", JSON.stringify(list))
   },[list])
